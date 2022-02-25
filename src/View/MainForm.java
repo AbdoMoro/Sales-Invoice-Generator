@@ -362,7 +362,7 @@ public class MainForm extends javax.swing.JFrame {
 
     private void btn_CancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_CancelActionPerformed
         // TODO add your handling code here:
-        int choice = JOptionPane.showConfirmDialog(null, "Are you sure you want to revert the updates?", "Warning", JOptionPane.YES_NO_OPTION);
+        int choice = JOptionPane.showConfirmDialog(null, "Are you sure you want to revert the unsaved updates?", "Warning", JOptionPane.YES_NO_OPTION);
         if (choice == JOptionPane.YES_OPTION) {
             loadSelectedRowIntoForm(Integer.parseInt(lbl_InvoiceNo.getText()));
         }
